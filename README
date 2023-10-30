@@ -2,7 +2,13 @@
 
 int main()
 {
+    int a = 0;
+
     printf("Hello World!");
+
+    printf("Inserisci un numero:\n");
+    scanf("%d", &a);
+    printf("Hai inserito %d", a);
 
     return 0;
 }
